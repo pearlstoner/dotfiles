@@ -1,0 +1,9 @@
+[connection]
+defaccount=ross@blah.im
+account=ross@blah.im
+
+[otr]
+policy=opportunistic
+
+[ui]
+statuses.chat=online
