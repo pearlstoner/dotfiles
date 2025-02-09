@@ -5,8 +5,8 @@ local opt = vim.opt
 opt.relativenumber = true
 
 -- tabs and indentation
-opt.tabstop = 2 -- 2 spaces for tabs
-opt.shiftwidth = 2 -- 2 spaces for indent
+opt.tabstop = 4 -- 2 spaces for tabs
+opt.shiftwidth = 4 -- 2 spaces for indent
 opt.expandtab = true -- expand tab to spaces
 opt.autoindent = true -- copy indent from current line when starting new one
 
@@ -16,7 +16,7 @@ opt.wrap = false
 opt.ignorecase = true
 opt.smartcase = true -- mixed assumes case sensitivity
 
-opt.cursorline = true 
+opt.cursorline = true
 
 -- termguicolors for tokyonight
 opt.termguicolors = true
@@ -31,5 +31,4 @@ opt.clipboard:append("unnamedplus") -- use cb as default register
 
 -- split windows
 opt.splitright = true
-opt.splitbelow = true 
-
+opt.splitbelow = true
